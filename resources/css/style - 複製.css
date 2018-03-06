@@ -1,0 +1,303 @@
+.navbar,
+.filelug-doc-container {
+	padding-left: 5px; 
+	padding-right: 5px;
+}
+
+.navbar {
+	min-height: 70px;
+}
+
+.navbar-fixed-top {
+	border-width: 0px 0px 1px;
+}
+
+.navbar-brand {
+	width: 180px;
+	height: 70px;
+	padding: 0;
+	margin-left: 0px; 
+	margin-right: 0px; 
+}
+
+.filelug-doc-container {
+	padding-top: 90px; 
+	padding-bottom: 5px;
+}
+
+.carousel,
+.carousel .item {
+	height: 125px;
+}
+
+.carousel {
+	margin-bottom: 0px;
+}
+
+.carousel-caption {
+	top: 20%;
+	right: 8%;
+    text-align: left;
+	z-index: 10;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
+}
+
+.caption-header,
+.caption-content {
+	font-weight: bold;
+}
+.caption-header {
+	font-size: 14px;
+}
+.caption-content {
+	font-size: 10px;
+}
+
+.carousel-inner > .item > img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	height: 100%;
+}
+
+.img-center {
+	display: block;
+	margin: auto;
+}
+
+/* Featurettes
+------------------------- */
+.featurette-divider {
+	margin: 20px 0; /* Space out the Bootstrap <hr> more */
+}
+
+.featurette {
+	padding-left: 10%; 
+	padding-right: 10%;
+}
+
+.featurette-heading {
+	font-weight: 900;
+	line-height: 1.4;
+	letter-spacing: 6px;
+}
+
+.price-table > thead > tr > th,
+.price-table > tbody > tr > td {
+	display: table-cell; 
+	vertical-align: middle; 
+	text-align: center; 
+}
+
+.footer {
+	width: 100%;
+	height: 30px;
+	color: #4582EC;
+	border-top: 1px solid #DDDDDD;
+}
+
+/* Device width greater than 480px */
+@media (min-width: 480px) {
+	.carousel,
+	.carousel .item {
+		height: 300px;
+	}
+	.caption-header {
+		font-size: 22px;
+	}
+	.caption-content {
+		font-size: 16px;
+	}
+}
+
+/* Device width greater than 768px */
+@media (min-width: 768px) {
+	.navbar,
+	.filelug-doc-container {
+		padding-left: 50px; 
+		padding-right: 50px;
+	}
+	.navbar-brand {
+		margin-right: 50px;
+	}
+	.filelug-doc-container {
+		padding-bottom: 20px;
+	}
+	.carousel,
+	.carousel .item {
+		height: 400px;
+	}
+	.caption-header {
+		font-size: 28px;
+	}
+	.caption-content {
+		font-size: 22px;
+	}
+	.featurette-heading {
+		font-size: 50px;
+	}
+}
+
+/* Device width greater than 992px */
+@media (min-width: 992px) {
+	.carousel,
+	.carousel .item {
+		height: 500px;
+	}
+	.caption-header {
+		font-size: 34px;
+	}
+	.caption-content {
+		font-size: 28px;
+	}
+}
+
+/* Temp style set, start here! */
+@media (min-width: 360px) {
+	.carousel,
+	.carousel .item {
+		height: 141px;
+	}
+}
+
+@media (min-width: 375px) {
+	.carousel,
+	.carousel .item {
+		height: 146px;
+	}
+}
+
+@media (min-width: 384px) {
+	.carousel,
+	.carousel .item {
+		height: 150px;
+	}
+}
+
+@media (min-width: 400px) {
+	.carousel,
+	.carousel .item {
+		height: 156px;
+	}
+}
+
+@media (min-width: 414px) {
+	.carousel,
+	.carousel .item {
+		height: 162px;
+	}
+}
+
+@media (min-width: 533px) {
+	.carousel,
+	.carousel .item {
+		height: 208px;
+	}
+}
+
+@media (min-width: 568px) {
+	.carousel,
+	.carousel .item {
+		height: 222px;
+	}
+}
+
+@media (min-width: 600px) {
+	.carousel,
+	.carousel .item {
+		height: 234 px;
+	}
+}
+
+@media (min-width: 640px) {
+	.carousel,
+	.carousel .item {
+		height: 250px;
+	}
+}
+
+@media (min-width: 667px) {
+	.carousel,
+	.carousel .item {
+		height: 261px;
+	}
+}
+
+@media (min-width: 720px) {
+	.carousel,
+	.carousel .item {
+		height: 281px;
+	}
+}
+
+@media (min-width: 736px) {
+	.carousel,
+	.carousel .item {
+		height: 288px;
+	}
+}
+
+@media (min-width: 800px) {
+	.carousel,
+	.carousel .item {
+		height: 313px;
+	}
+}
+
+@media (min-width: 960px) {
+	.carousel,
+	.carousel .item {
+		height: 375px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.carousel,
+	.carousel .item {
+		height: 400px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.carousel,
+	.carousel .item {
+		height: 469px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.carousel,
+	.carousel .item {
+		height: 500px;
+	}
+}
+
+@media (min-width: 1366px) {
+	.carousel,
+	.carousel .item {
+		height: 534px;
+	}
+}
+
+@media (min-width: 1440px) {
+	.carousel,
+	.carousel .item {
+		height: 563px;
+	}
+}
+
+@media (min-width: 1600px) {
+	.carousel,
+	.carousel .item {
+		height: 625px;
+	}
+}
+
+@media (min-width: 1920px) {
+	.carousel,
+	.carousel .item {
+		height: 750px;
+	}
+}
+/* Temp style set, end here! */
